@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Quantity</th>
+          <th>Description</th>
+          <th>Unit Price</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="data r">1.5</td>
+          <td class="data r">Stock item example 001</td>
+          <td class="data r">1,000.00</td>
+          <td class="data r">1,500</td>
+        </tr>
+        <tr>
+          <td class="data r">1</td>
+          <td class="data r">Stock item example 002</td>
+          <td class="data r">2,000.00</td>
+          <td class="data r">2,000.00</td>
+        </tr>
+        <tr>
+          <td class="data r">1</td>
+          <td class="data r">Service Charge Invoicing Item 001</td>
+          <td class="data r">100</td>
+          <td class="data r">200</td>
+        </tr>
+        <tr>
+          <td class="data r">1</td>
+          <td class="data r">Service Charge Invoicing Item 001</td>
+          <td class="data r">200</td>
+          <td class="data r">600</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr id="sub-total">
+          <td class="data r" colspan="3">Subtotal</td>
+          <td class="data r">4300</td>
+        </tr>
+        <tr>
+          <td class="data r" colspan="3">Sales Tax</td>
+          <td class="data r">430</td>
+        </tr>
+        <tr>
+          <td class="data r" colspan="3">Shipping &amp; Handling</td>
+          <td class="data r">0</td>
+        </tr>
+        <tr id="total-due">
+          <td class="data r" colspan="3">Total Due</td>
+          <td class="data r">4730</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
